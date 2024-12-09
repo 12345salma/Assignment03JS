@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+    <h1 class="d-flex justify-content-center pt-5">Bookmarker</h1>
+    <div class="dotted-line"></div>
+    <div class="container form-book py-4">
+        <div class="d-flex justify-content-center head">
+            <h2>Bookmark your favorite sites</h2>
+        </div>
+    </div>
+
+    <div class="w-75 mx-auto py-5">
+        <div class="mb-3">
+            <label for="bookname" class="form-label fw-bolder">Site Name</label>
+            <input type="text" class="form-control" id="bookname" placeholder="Bookmark Name">
+        </div>
+
+        <div class="mb-3">
+            <label for="bookurl" class="form-label fw-bolder">Site URL</label>
+            <input type="url" class="form-control" id="bookurl" placeholder="Website URL">
+        </div>
+    </div>
+
+    <div class="sub-button text-center">
+        <button id="submitbutton" class="btn border-0 text-white rounded-2 ps-5 pe-5">submit</button>
+    </div>
+
+    <div class="dotted-line"></div>
+
+    <table class="mt-4 bg-white text-center container">
+        <thead>
+            <tr>
+                <th class="py-2">index</th>
+                <th>website name </th>
+                <th>visit </th>
+                <th>delete</th>
+            </tr>
+
+
+        <tbody id="My-rows" class="position-relative">
+        </tbody>
+
+    </table>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

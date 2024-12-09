@@ -1,0 +1,25 @@
+body{
+    background-color: #F7ECDE;
+}
+.dotted-line {
+    border-top: 2px dotted black; 
+    width: 100%; 
+    margin: 20px 0; 
+
+  }
+  h1{
+    font-family: "Pacifico", cursive;
+  font-weight: bold;
+  font-style: italic;
+  }
+  h2
+  {
+    color: #70A854;
+  }
+  .sub-button button
+  {
+    background-color: #D1512D;
+    &:hover{
+        background-color: #bb3813;
+    }
+  }
